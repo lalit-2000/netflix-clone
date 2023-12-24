@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaijaan+2&family=Poppins:wght@200;300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Baloo+Bhaijaan+2&family=Poppins:wght@800&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'Baloo Bhaijaan 2', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+
+}
+body{
+    background-color: black;
+    color: white;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/a09bb938-2d90-42ae-986e-5a3e4abf9e77/8eb1e781-3494-4aa4-9405-268ca6473e4c/IN-en-20231113-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+  
+    position: relative;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+.logo{
+    width: 145px;
+    position: relative;
+    z-index: 10;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    padding: 25px;
+    /* background-color: rgba(0, 0, 0, 0.447);  */
+}
+.buttons{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    gap: 15px;
+}
+.eng{
+    padding: 5px 20px;
+    background-color: rgba(0, 0, 0, 0.415);
+    border-radius: 5px ;
+    border: 1px solid white;
+}
+.sn{
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.red:hover{
+    background-color: rgb(181, 11, 11);
+}
+@media screen and (max-width:1210px){
+
+    .eng{
+        padding:3px 4px;
+
+    }
+    .sn{
+        padding: 3px 4px;
+    }
+    .logo{
+        width: 90px;
+        position: relative;
+        
+    }
+    nav{
+        max-width: 100vw;
+        justify-content: space-between;
+        margin: 0 10px;
+
+    }
+    .buttons{
+        gap: 2px;
+    }
+}
+/* ____main2 starts */
+.main2{
+    position: relative;
+    z-index: 10;
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.main2> :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.main2> :nth-child(2){
+    font-size: 24px;
+    font-weight: 500;}
+
+.main2> :nth-child(3){
+    font-size: 20px;
+    font-weight: 500;
+}
+.button2 ::placeholder{
+    font-size: 18px;
+    text-align: left;
+    color: white;
+}
+.button2 input{
+    padding: 15px 200px 15px 8px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.4);   
+    border-radius: 5px;
+    border: 1px solid white;
+}
+.gs{
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 8px;
+}
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+@media screen and (max-width:1210px){
+
+    .main2> :nth-child(1){
+        font-size: 34px;
+        text-align: center;
+    }
+    .main2> :nth-child(2){
+        font-size: 18px;
+        text-align: center;
+    }
+    .main2> :nth-child(3){
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .button2{
+        flex-direction: column;
+    }
+    
+}
+.separtion{
+    background-color: rgb(43, 41, 41);
+    height: 10px;
+    width: 100vw;
+    
+    
+}
+/* main cont starts form here */
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 70vw;
+    margin: auto;
+    
+}
+.secimg{
+    position: relative;
+}
+.secimg img{
+    width: 450px;
+    position: relative;
+    z-index: 10;
+
+}
+.secimg video{
+    width: 450px;
+    position: absolute;
+    top: 51px;
+    right: 0;
+}
+.first> div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first> div :nth-child(2){
+    font-size: 24px;
+    font-weight: 500;
+}
+.first> div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* faq sec */
+.faq{
+    align-content: center;
+    
+   
+}
+.faqitem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(50, 47, 47);
+    max-width: 60vw;
+    margin: 10px auto;
+    padding: 25px;
+    font-size: 26px;
+}
+.faq h2{
+    text-align: center;
+    padding: 20px 0;
+
+}
+.heading1{
+    font-size: 18px;
+}
+.bottombutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 22px;
+    padding: 60px 10px;
+}
+.bottombutton :nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    max-width: 80vw;
+    
+    margin: auto;
+    
+    align-items: center;
+    
+    
+}
+.footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15PX;
+}
+.Question{
+    position: relative;
+    left: 72px;
+    
+}
+.end{
+    padding: 100px 0;
+}
+footer{
+    padding: 26px 0;
+}
+@media screen and (max-width: 1210px) {
+    .first{
+       flex-wrap: wrap;
+       padding: 20px;      }
+
+       .first> div :nth-child(1){
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .first> div :nth-child(2){
+        font-size: 20px;
+        font-weight: 500;}
+
+      .bottombutton :nth-child(2){
+                 
+            flex-direction: column;
+        }
+        .faqitem{
+            font-size: 16px;
+        }
+        .button2 input{
+            padding: 15px 130px 15px 8px;
+            
+        }
+        .first{
+            overflow-x: hidden;
+        }
+        .footer {
+            grid-template-columns: 1fr 1fr;
+            transition: all 3s ease-in;
+        }
+
+    
+}
+
+
